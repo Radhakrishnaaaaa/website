@@ -13,7 +13,7 @@ pipeline {
         }
         stage('pulls'){
             steps{
-                sh 'git pull origin master'
+                sh 'git pull origin new-feture'
             }
         }
         stage ('build and deploy') {
