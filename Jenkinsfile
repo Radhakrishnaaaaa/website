@@ -18,7 +18,7 @@ pipeline {
         }
         stage ('build and deploy') {
             steps {
-                sh ''' cp -r /var/lib/jenkins/workspace/website2/* /var/www/html/app3 '''
+                sh ''' cp -r /var/lib/jenkins/workspace/multi-branch/* /var/www/html/app3 '''
             }
         }
     }
