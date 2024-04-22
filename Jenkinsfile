@@ -18,7 +18,7 @@ pipeline {
         }
         stage ('build and deploy') {
             steps {
-                sh ''' cp -r /var/lib/jenkins/workspace/multi-branch/* /var/www/html/app4 '''
+                sh ''' cp -r /var/lib/jenkins/workspace/multi-branch_new-feture/* /var/www/html/app4 '''
             }
         }
     }
