@@ -6,7 +6,6 @@ pipeline {
                 git branch:'new-feture',url:'https://github.com/Radhakrishnaaaaa/website.git'
             }
         }
-        
         stage('git fetch'){
             steps{
                 sh 'git fetch '
