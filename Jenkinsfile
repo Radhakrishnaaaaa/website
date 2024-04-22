@@ -6,7 +6,6 @@ pipeline {
                 git 'https://github.com/Radhakrishnaaaaa/website.git'
             }
         }
-        
         stage('git fetch'){
             steps{
                 sh 'git fetch '
